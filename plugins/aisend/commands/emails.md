@@ -1,0 +1,11 @@
+---
+description: Show your recent AISend emails and their delivery status (read-only)
+---
+
+Show the user's recent AISend emails. This is read-only: do not send anything. Filter or topic from the user: $ARGUMENTS
+
+1. Call `list_emails` (default 10; use `status` or `search` if the user gave a filter, and page with `nextOffset` only if asked for more).
+2. Show id, recipient, subject, status and opened/clicked as a short table, exactly as the tool returned them.
+3. If the user asks about one email in detail, call `get_email_status` with its id.
+4. Report problems plainly (failed, bounced, complained) and do not guess at causes the tools did not return.
+5. If the tools say sign-in is required, tell the user to open `/mcp` and authenticate `aisend`.

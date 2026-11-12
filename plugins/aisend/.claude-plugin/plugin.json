@@ -1,0 +1,20 @@
+{
+  "name": "aisend",
+  "displayName": "AISend",
+  "version": "1.0.0",
+  "description": "Send email from your own verified domain with AISend from Claude Code: you approve every message before it goes out, then check delivery and validate addresses.",
+  "author": {
+    "name": "AISend",
+    "email": "hello@aisend.app",
+    "url": "https://aisend.app"
+  },
+  "homepage": "https://aisend.app/docs",
+  "repository": "https://github.com/airdropfi/aisend-claude-plugin",
+  "license": "MIT",
+  "keywords": ["email", "transactional email", "delivery", "domains", "mcp"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://aisend.app/docs",
+  "supportUrl": "https://aisend.app/docs",
+  "privacyPolicyUrl": "https://aisend.app/privacy",
+  "termsOfServiceUrl": "https://aisend.app/terms"
+}

@@ -1,0 +1,10 @@
+---
+description: Show your AISend sending domains and which are verified (read-only)
+---
+
+Show which sending domains are set up on the user's AISend account. This is read-only.
+
+1. Call `list_domains`.
+2. List each domain with its status exactly as returned, and say which can be used as the `from` address.
+3. If none is verified, explain that domains are added and verified by the user at https://aisend.app/domains, and that until then only test mail from an address at `send.aisend.app` to their own account email is possible.
+4. If the tools say sign-in is required, tell the user to open `/mcp` and authenticate `aisend`.
