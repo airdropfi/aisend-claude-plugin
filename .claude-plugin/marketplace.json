@@ -10,9 +10,14 @@
     {
       "name": "aisend",
       "source": "./plugins/aisend",
-      "description": "Send email from your own verified domain with AISend. You approve every message before it goes out; check delivery and validate addresses.",
+      "description": "AISend is a paid transactional email API built for AI agents to operate and humans to supervise: an agent sends from your verified domain, checks delivery and validates addresses over MCP or a Resend-compatible API, while you approve, review and can revoke access.",
       "category": "productivity",
-      "tags": ["email", "mcp", "delivery", "domains"]
+      "tags": [
+        "email",
+        "mcp",
+        "delivery",
+        "domains"
+      ]
     }
   ]
 }
